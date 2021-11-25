@@ -1,0 +1,6 @@
+random
+schedule
+ccxt
+pandas
+warnings
+numpy
