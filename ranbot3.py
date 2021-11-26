@@ -29,8 +29,8 @@ def prayRNG():
     bids = exchange.fetch_bids_asks()['ETH/USDT']['bid']
     asks = exchange.fetch_bids_asks()['ETH/USDT']['ask']
 
-    buyAmount = base / asks #calculates USDT divides to the asking price of ETH
-    sellAmount = quote #just the quote defined above, to sell max ETH balance
+    buyAmount = base / asks #cals the total balance u can buy by dividing the base price to the asking price
+    sellAmount = quote #total ETH balance to sell
 
 
     print("Balances: ETH",quote,"USDT",base)
@@ -67,4 +67,5 @@ while True:
     time.sleep(1)
 
 #started with $230 USD
-#now @ $197 xd
+#ended with $180
+#rnjesus not with me
